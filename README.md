@@ -58,7 +58,7 @@ Ejemplo de `POST`:
 
 ## Ejecución local
 
-El perfil `dev` viene activo en `application.yml`: si la tabla está vacía, carga 100 conductores sintéticos.
+El perfil `dev` viene activo en `application.yml`: si la tabla está vacía, carga 20 conductores sintéticos. La capacidad depende del vehículo: auto 4 pasajeros, SUV entre 4 y 6, van entre 6 y 10.
 
 ```bash
 ./mvnw spring-boot:run
