@@ -35,7 +35,7 @@ public class DataInitializer {
             Set<String> patentes = new HashSet<>();
             List<Conductor> conductores = new ArrayList<>();
 
-            for (int i = 1; i <= 100; i++) {
+            for (int i = 1; i <= 20; i++) {
                 //patente unica con formato chileno: 4 letras + 2 numeros
                 String patente;
                 do {
